@@ -2821,6 +2821,40 @@
 		border-color: rgba(255, 255, 255, 0.35);
 	}
 
+
+
+.table2 {
+    font-family:'Courier New', monospace;
+    width:75%;
+    margin:auto;
+    font-size:15px;
+ border-collapse: separate;
+  border-spacing:  15px;
+}
+
+.table2 th {
+    Text-align:left;
+    vertical-align:middle;
+    border-radius: 10px;
+    border:1px solid #00cccc;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+.table2 td {
+    vertical-align:middle;
+    Text-align:left;
+    border-radius: 10px;
+    border:1px solid #00cccc;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+
 /* Features */
 
 	.features {
