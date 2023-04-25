@@ -2828,8 +2828,8 @@
     width:90%;
     margin:auto;
     font-size:15px;
- border-collapse: separate;
-  border-spacing:  15px;
+    border-collapse: separate;
+    border-spacing:  15px;
 }
 
 .table2 th {
