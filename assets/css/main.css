@@ -2888,20 +2888,18 @@
      width:90%;
      margin:auto;
      font-size:15px;
-     border-collapse: separate;
-     border-spacing:  15px;
  }
 
  .table3 th {
      Text-align:left;
-     vertical-align:middle;
+     vertical-align:left;
      border-radius: 10px;
      border:1px solid #00cccc;
  }
 
  .table3 td {
      width:30%;
-     vertical-align:middle;
+     vertical-align:left;
      Text-align:left;
      border-radius: 10px;
      border:1px solid #00cccc;
