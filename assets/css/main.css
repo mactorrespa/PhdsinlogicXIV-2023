@@ -2886,23 +2886,18 @@
 .table3 {
      font-family:'Courier New', monospace;
      width:90%;
-     margin:auto;
      font-size:15px;
  }
 
  .table3 th {
      Text-align:left;
      vertical-align:left;
-     border-radius: 10px;
-     border:1px solid #00cccc;
  }
 
  .table3 td {
      width:30%;
      vertical-align:left;
      Text-align:left;
-     border-radius: 10px;
-     border:1px solid #00cccc;
 
  }
 
