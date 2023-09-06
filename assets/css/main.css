@@ -2827,6 +2827,29 @@
 		border-color: rgba(255, 255, 255, 0.35);
 	}
 
+.table1 {
+    font-family:'Courier New', monospace;
+    width:75%;
+    margin:auto;
+    font-size:14px;
+    border: 1px solid white;
+    border-collapse: collapse; }
+
+
+.table1 th {
+    color:#000000;
+    text-align:center;
+    vertical-align:middle;
+    border:1px solid #ffffff;
+}
+
+.table1 td {
+    color:#000000;
+    vertical-align:middle;
+    text-align:center;
+    padding: 4px 4px;
+    border:1px solid #ffffff;
+}
 
 
 .table2 {
