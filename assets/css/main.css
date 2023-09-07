@@ -2887,18 +2887,28 @@
      font-family:'Courier New', monospace;
      width:90%;
      font-size:15px;
+	 border-collapse: collapse;
  }
 
  .table3 th {
      Text-align:left;
      vertical-align:left;
+	     border-radius: 10px;
+    border:1px solid #00cccc;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  padding-left: 3px;
+  padding-right: 4px;
  }
 
  .table3 td {
      width:30%;
      vertical-align:left;
      Text-align:left;
-
+  padding-top: 1px;
+  padding-bottom: 2px;
+  padding-left: 3px;
+  padding-right: 4px;
  }
 
 
