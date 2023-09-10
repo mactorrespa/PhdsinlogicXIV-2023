@@ -2580,18 +2580,6 @@
 					padding: 0 0 0 1em;
 				}
 
-			ul.actions.fit {
-				display: table2;
-				margin-left: -1em;
-				padding: 0;
-				table2-layout: fixed;
-				width: calc(100% + 1em);
-			}
-
-				ul.actions.fit li {
-					display: table2-cell;
-					padding: 0 0 0 1em;
-				}
 
 					ul.actions.fit li > * {
 						margin-bottom: 0;
@@ -2895,6 +2883,31 @@
    padding-left: 30px;
    padding-right: 40px;
  }
+.table2-responsive {
+    min-height: .01%;
+    overflow-x: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .table2-responsive {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #ddd;
+    }
+    .table2-responsive > .table {
+        margin-bottom: 0;
+    }
+    .table-responsive > .table2 > thead > tr > th,
+    .table-responsive > .table2 > tbody > tr > th,
+    .table-responsive > .table2 > tfoot > tr > th,
+    .table-responsive > .table2 > thead > tr > td,
+    .table-responsive > .table2 > tbody > tr > td,
+    .table-responsive > .table2 > tfoot > tr > td {
+        white-space: nowrap;
+    }
+}
 
 .table3 {
      font-family:'Courier New', monospace;
