@@ -2580,6 +2580,19 @@
 					padding: 0 0 0 1em;
 				}
 
+			ul.actions.fit {
+				display: table2;
+				margin-left: -1em;
+				padding: 0;
+				table2-layout: fixed;
+				width: calc(100% + 1em);
+			}
+
+				ul.actions.fit li {
+					display: table2-cell;
+					padding: 0 0 0 1em;
+				}
+
 					ul.actions.fit li > * {
 						margin-bottom: 0;
 					}
