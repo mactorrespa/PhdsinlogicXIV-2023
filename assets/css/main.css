@@ -2829,7 +2829,7 @@
 	}
 
 .scrollingTable{
-width: 100% max-width: 600px; overflow: hidden;
+width: 100% max-width: 600px; overflow: scroll;
 }
 
 .table1 {
