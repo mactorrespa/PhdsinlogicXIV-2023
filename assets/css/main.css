@@ -2830,9 +2830,13 @@
 
 .scrollingTable{
 width: 100% max-width: 600px; overflow: scroll; 
-   scrollable-element {
-  scrollbar-color: red yellow;
 }
+	.scrollingTable::-webkit-scrollbar {
+    display: none;
+}
+.scrollingTable {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 .table1 {
