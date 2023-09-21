@@ -2829,7 +2829,10 @@
 	}
 
 .scrollingTable{
-width: 100% max-width: 600px; overflow: scroll; scrollbar-color: #FFF4E9; 
+width: 100% max-width: 600px; overflow: scroll; 
+   scrollable-element {
+  scrollbar-color: red yellow;
+}
 }
 
 .table1 {
